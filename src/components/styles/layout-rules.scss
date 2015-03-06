@@ -1,0 +1,5 @@
+@import './src/vendor/bourbon/app/assets/stylesheets/bourbon';
+@import './src/vendor/neat/app/assets/stylesheets/neat';
+.main-gallery {
+	@include outer-container;
+}

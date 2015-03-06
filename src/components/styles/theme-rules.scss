@@ -1,0 +1,5 @@
+@import './src/vendor/bourbon/app/assets/stylesheets/bourbon';
+@import './src/vendor/neat/app/assets/stylesheets/neat';
+.main-gallery.default-skin {
+	@include background(linear-gradient(red, green) left repeat);
+}
